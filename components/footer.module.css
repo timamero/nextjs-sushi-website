@@ -1,0 +1,25 @@
+.footer {
+  background-color: var(--dark-gray-transparent);
+  color: var(--light);
+}
+
+.navLinkContainer {
+  text-align: center;
+}
+
+.navLink a {
+  color: var(--light);
+  font-size: 0.75rem;
+  font-family: 'DM Serif Display', serif;
+  letter-spacing: 2px;
+}
+
+.navLink a:hover {
+  color: var(--light-gold);
+}
+
+.logoWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

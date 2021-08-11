@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:export-ydpi="107.46"
+   inkscape:export-xdpi="107.46"
+   inkscape:export-filename="C:\Users\fcame\DevProjects\ReactDeploy\Kintaro\kintaro\public\favicon.png"
+   width="32"
+   height="32"
+   viewBox="0 0 8.4666661 8.4666661"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="favicon.svg">
+  <defs
+     id="defs2">
+    <rect
+       x="-2.6458333"
+       y="3.7797618"
+       width="31.372023"
+       height="38.931545"
+       id="rect835" />
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter2689"
+       x="-0.011311151"
+       width="1.0226223"
+       y="-0.011311151"
+       height="1.0226223">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.062348789"
+         id="feGaussianBlur2691" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter2837"
+       x="-0.0088215293"
+       width="1.0176431"
+       y="-0.0061380942"
+       height="1.0122762">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.022601116"
+         id="feGaussianBlur2839" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="7.9195959"
+     inkscape:cx="8.5019845"
+     inkscape:cy="20.265173"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     units="px"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1624"
+     inkscape:window-height="1020"
+     inkscape:window-x="38"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-5.4630223,-2.6566926)">
+    <path
+       transform="matrix(0.62584198,0,0,0.62584198,2.0440336,0.99402286)"
+       style="fill:#e01d1d;fill-opacity:1;stroke:none;stroke-width:2.97074;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers;filter:url(#filter2689)"
+       id="path839"
+       sodipodi:type="arc"
+       sodipodi:cx="12.227242"
+       sodipodi:cy="9.4209127"
+       sodipodi:rx="6.614583"
+       sodipodi:ry="6.614583"
+       sodipodi:start="0.15038193"
+       sodipodi:end="0.1491684"
+       sodipodi:open="true"
+       sodipodi:arc-type="arc"
+       d="M 18.767173,10.411882 A 6.614583,6.614583 0 0 1 11.238258,15.961143 6.614583,6.614583 0 0 1 5.686712,8.4339123 6.614583,6.614583 0 0 1 13.212259,2.8800831 6.614583,6.614583 0 0 1 18.768371,10.403944" />
+    <text
+       xml:space="preserve"
+       id="text833"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:Merienda;-inkscape-font-specification:'Merienda, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect835);fill:#323030;fill-opacity:1;stroke:none;stroke-width:0.100012;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter2837);"
+       transform="matrix(0.62584198,0,0,0.62584198,8.9317569,1.1888186)"><tspan
+         x="-2.6464844"
+         y="13.178938"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.5833px;font-family:Merienda;-inkscape-font-specification:'Merienda, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#323030;fill-opacity:1;stroke:none;stroke-width:0.100012;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">K</tspan></tspan></text>
+  </g>
+</svg>

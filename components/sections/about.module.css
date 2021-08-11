@@ -1,0 +1,19 @@
+.about {
+    background-color: var(--light);
+}
+
+.icon {
+    font-size: 1.5rem;
+    color: var(--red);
+    transition: var(--hover-transition);
+}
+
+.icon:hover {
+    transform: scale(1.1);
+    color: var(--dark-gray);
+}
+
+/* .infoText {
+    font-family: 'DM Serif Display', serif;
+    font-size: 0.8rem;
+} */

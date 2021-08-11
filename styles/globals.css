@@ -1,0 +1,68 @@
+:root {
+  /* Colors */
+  --light: #fcfcfc;
+  --light-transparent: rgb(252, 252, 252, 0.8);
+  --gray: #A59A99;
+  --dark-gray: #544C4A; 
+  --dark-gray-transparent: rgb(34, 19, 15, 0.75);
+  --dark: #323030;
+  --red: #E01D1D;
+  --dark-red: #941919;
+  --greyish-red: #AA5555;
+  --gold: #E2A01D;
+  --light-gold: #EEC97E;
+  --light-gold-transparent: rgb(238, 201, 126, 0.2);
+  --greyish-gold: #B1904E;
+
+  --max-page-width: 1000px;
+  --hover-transition: all 0.3s linear;
+}
+
+
+/*
+Imported fonts
+font-family: 'Nunito Sans', sans-serif;
+weights - 200, 300, 400, 600, 700; italic - all
+
+font-family: 'DM Serif Display', serif;
+weights - 400; italic - 400
+
+font-family: 'Merienda', cursive;
+weights - 400, 700
+*/
+
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+  
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+  
+* {
+  margin: 0px;
+  padding: 0px;
+}
+  
+body {
+  background-color: var(--light);
+  font-family: 'Nunito Sans', sans-serif;
+  color: var(--dark);
+}
+  
+ul {
+  list-style-type: none;
+}
+  
+a {
+  text-decoration: none;
+  color: var(--red);
+  transition: var(--hover-transition);
+}
+  
+a:hover, a:active {
+  color: var(--dark-gray);
+}

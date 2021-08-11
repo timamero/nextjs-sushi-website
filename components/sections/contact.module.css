@@ -1,0 +1,33 @@
+.contact {
+  background-color: var(--light);
+}
+
+.form label {
+  text-align: right;
+  font-family: 'DM Serif Display', serif;
+}
+
+.form input, .form textarea {
+  width: 100%;
+  max-width: 400px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  border-bottom: 2px solid var(--dark-gray);
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 1.25rem;
+}
+
+.form textarea {
+  height: 6rem;
+  font-size: 0.8rem;
+  border: 2px solid var(--dark-gray);
+}
+
+.form input:focus {
+  border-bottom: 2px solid var(--gold);
+}
+
+.form textarea:focus {
+  border: 2px solid var(--gold);
+}

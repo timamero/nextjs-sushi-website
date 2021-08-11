@@ -1,0 +1,55 @@
+.bgWrapper {
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    max-width: var(--max-page-width);
+    overflow: hidden;
+    z-index: -2;
+}
+
+.bgWrapperOverlay {
+    background-color: var(--dark-gray-transparent);
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    max-width: var(--max-page-width);
+    overflow: hidden;
+    z-index: -1;
+}
+
+.mainHeading {
+    /* font-family: 'Merienda', cursive; */
+    font-size: 2.5rem;
+    font-weight: 200;
+}
+
+.sectionHeading {
+    font-size: 1.7rem;
+    font-family: 'Merienda', cursive;
+}
+
+.tagline {
+    /* font-family: 'Merienda', cursive; */
+    font-family: 'DM Serif Display', serif;
+    font-style: italic;
+    letter-spacing: 3px;
+}
+
+.paragraph {
+    padding-left: 4rem;
+}
+
+.infoText {
+    font-family: 'DM Serif Display', serif;
+    font-size: 0.8rem;
+}
+
+.centerText {
+    text-align: center;
+}
+
+.decorWrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+}

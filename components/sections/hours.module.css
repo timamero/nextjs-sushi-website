@@ -1,0 +1,24 @@
+.hours {
+    background-color: var(--light-transparent);
+}
+
+.day {
+    text-align: center;
+    /* font-family: 'Merienda', cursive; */
+    font-family: 'DM Serif Display', serif;
+}
+
+.hourLabel {
+    text-align: center;
+    /* font-family: 'Merienda', cursive; */
+    /* font-family: 'DM Serif Display', serif; */
+}
+
+.hour {
+    text-align: left;
+    font-family: 'DM Serif Display', serif;
+    font-size: 1.5rem;
+    /* font-weight: 600; */
+}
+
+/* need to vertically align hours and label */

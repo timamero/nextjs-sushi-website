@@ -1,0 +1,27 @@
+.gallery {
+    background-color: var(--light-transparent);
+}
+
+.embla {
+    overflow: hidden;
+}
+.embla__container {
+display: flex;
+}
+
+.embla__slide {
+position: relative;
+flex: 0 0 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.embla__prev, .embla__next {
+    cursor: pointer;
+    margin-top: 16px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    font-size: 3rem;
+}

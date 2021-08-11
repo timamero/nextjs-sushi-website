@@ -1,0 +1,16 @@
+.location {
+    background-color: var(--light);
+}
+
+.mapInfoBox {
+    background-color: var(--light-transparent);
+    padding: 4px;
+    width: max-content;
+}
+
+.mapInfoBoxText {
+    font-size: 1rem;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    /* white-space: nowrap; */
+}

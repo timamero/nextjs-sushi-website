@@ -1,0 +1,151 @@
+.navWrapper {
+    position: relative;
+    width: 100%;
+}
+
+.nav {
+    height: 40px;
+    width: 100%;
+    max-width: var(--max-page-width);
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: var(--light);
+    z-index: 2;
+}
+
+.logoWrapper {
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navLinksWrapper {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 0;
+    opacity: 0;
+    width: 100vw;
+    max-width: var(--max-page-width);
+    transition: height 1s linear, opacity 1s linear;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--light);
+}
+
+.showNav {
+    height: 100vh;
+    opacity: 1;
+}
+
+.navLinks {
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 16px;
+    transform: translate(0, -100%);
+    transition: 1.5s;
+}
+
+.showNavLinks {
+    transform: none;
+    opacity: 1;
+}
+
+.navLink {
+    padding: 4px;
+}
+
+.navLink a {
+    font-size: 1.75rem;
+    font-weight: 700;
+    font-family: 'DM Serif Display', serif;
+    letter-spacing: 2px;
+}
+
+.hamburgerWrapper {
+    cursor: pointer;
+    padding-right: 16px;
+    height: 100%;
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 3;
+}
+
+.hamburger {
+    height: max-content;
+    width: max-content;  
+}
+
+.bar1, .bar2, .bar3 {
+    margin-left:auto;
+    margin-bottom: 4px;
+    height: 0.15rem;
+    background-color: var(--dark);
+    border-radius: 1rem;
+    transition: 0.4s;
+}
+
+.bar1 {
+    width: 40px;
+}
+
+.bar2 {
+    width: 36px;
+}
+
+.bar3 {
+    width: 32px;
+}
+
+.closeBar1 {
+    width: 32px;
+    transform: rotate(-45deg) translate(-4px,7px);
+}
+
+.closeBar2 {
+    opacity: 0;
+}
+
+.closeBar3 {
+    transform: rotate(45deg) translate(-2px,-5px);
+}
+
+@media screen and (min-width: 1000px) {
+    .navLinksWrapper {
+        position: relative;
+        justify-content: flex-end;
+        opacity: 1;
+        width: 100%;
+        max-width: 100%;
+        height: 100%;
+    }
+
+    .navLinks {
+        margin-bottom: 0;
+        display: grid;
+        grid-template-columns: repeat(7, auto);
+        column-gap: 16px;
+        /* flex-direction: row; */
+        transform: none;
+        opacity: 1;
+        
+    }
+
+    .navLink a {
+        font-size: 1rem;
+        font-weight: 400;
+        letter-spacing: 1px;
+    }
+
+    .hamburgerWrapper {
+        display: none;
+    }
+}
