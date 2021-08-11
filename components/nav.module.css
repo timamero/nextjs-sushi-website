@@ -30,7 +30,7 @@
     opacity: 0;
     width: 100vw;
     max-width: var(--max-page-width);
-    transition: height 1s linear, opacity 1s linear;
+    transition: height 1s linear, opacity 0s linear;
     display: flex;
     justify-content: center;
     align-items: center;
