@@ -36,7 +36,7 @@ function MapWithAMarker() {
                 >
                 <div className={styles.mapInfoBox}>
                     <div className={styles.mapInfoBoxText}>
-                        Kintaro Sushi Bar
+                        Kokoro Sushi
                     </div>
                 </div>
                 </InfoBox>
