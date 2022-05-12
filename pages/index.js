@@ -8,7 +8,7 @@ import Contact from '../components/sections/contact'
 
 export default function Home() {
   return (
-    <PageLayout title="Kintaro">
+    <PageLayout title="Kokoro">
       <Hero />
       <About />
       <Hours />

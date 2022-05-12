@@ -3,7 +3,7 @@ import PageLayout from '../components/pageLayout'
 
 const Menu = () => {
     return (
-        <PageLayout title="Kintaro - Menu">
+        <PageLayout title="Kokoro - Menu">
             
             <Link href="/">
                 <a>Home</a>
